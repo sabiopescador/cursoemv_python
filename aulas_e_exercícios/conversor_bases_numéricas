@@ -1,0 +1,18 @@
+n = int(input('Digite um número inteiro para ver a sua conversão: '))
+print('Digite: \n[1] para binário \n[2] para octal \n[3] para hexadedimal \n')
+escolha = int(input('Sua escolha: '))
+if escolha == 1:
+    print(f'{bin(n)[2:]}')
+elif escolha == 2:
+    print(f'{oct(n)[2:]}')
+else:
+    print(f'{hex(n)[2:]}')
+
+    '''
+    0b para binário
+    0x para hexadecimal
+    0o para octal
+
+    usamos [:2] tecnica de fatiação de string para não aparecer esses nomes
+    fatiamento, tratamento de strings aula 10
+    '''
