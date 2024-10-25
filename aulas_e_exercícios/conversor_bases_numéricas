@@ -5,9 +5,11 @@ if escolha == 1:
     print(f'{bin(n)[2:]}')
 elif escolha == 2:
     print(f'{oct(n)[2:]}')
-else:
+elif escolha == 3:
     print(f'{hex(n)[2:]}')
-
+else:
+    print('ESCOLHA UMA OPÇÃO VÁLIDA!')
+    
     '''
     0b para binário
     0x para hexadecimal
