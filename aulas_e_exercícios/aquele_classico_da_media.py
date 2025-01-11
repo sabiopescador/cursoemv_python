@@ -10,4 +10,5 @@ if media >  7.0:
 elif media < 7.0 and media >= 5.5:
     print('ALUNO EM RECUPERAÇÃO')
 else:
-    print('REPROVADO')
+    print('REPROVADO!')
+    
