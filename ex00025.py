@@ -1,4 +1,8 @@
 # procurando uma string dentro de outra
+
+'''
+    print('Seu nome tem silva? {}'.format('silva' in nome.lower()))
+'''
 nome = str(input('Qual o seu nome completo? ')).strip().upper()
 
 if nome.find('SILVA') != -1:
